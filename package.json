@@ -1,0 +1,13 @@
+{
+    "name": "guild-down-bot",
+    "version": "1.0.0",
+    "main": "./index.js",
+    "scripts": {
+        "start": "node ."
+    },
+    "dependencies": {
+        "discord.js": "discordjs/discord.js",
+        "dotenv": "^8.0.0",
+        "raven": "^2.6.4"
+    }
+}
