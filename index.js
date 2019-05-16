@@ -7,7 +7,7 @@ Raven.config(process.env.SENTRY, { captureUnhandledRejections: true }).install()
 const client = new Client()
 
 client.ws.on('GUILD_DELETE', (d) => {
-    Raven.captureMessage(d);
+    Raven.captureException(d);
     console.log(d);
 });
 
